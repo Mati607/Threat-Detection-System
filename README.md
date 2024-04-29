@@ -15,6 +15,3 @@
 3. You can choose to locally parse the E5 dataset and generate the data files using the timestamps provided in the TrustWatch E5 scripts.
 4. Alternatively, you can ingest the data into an Elasticsearch cluster by providing your credentials in the script, which will then execute automatically.
 5. Information on data ingestion into Elasticsearch is available at this [link](https://www.elastic.co/blog/how-to-ingest-data-into-elasticsearch-service).
-
-#### Acknowledgements
-Some of the code used in TrustWatch has been adapted from the FLASH system.

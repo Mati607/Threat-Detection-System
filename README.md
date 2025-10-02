@@ -2,61 +2,19 @@
 
 Implementation of a privacy-aware machine learning system for intrusion detection. The goal is to detect security threats while preserving the privacy of sensitive data using techniques such as federated learning, differential privacy, and cryptographic approaches.
 
-## Tech Stack
-
-### Core ML/AI Frameworks
-- **PyTorch 2.5.0** - Deep learning framework with CUDA support
-- **PyTorch Geometric 2.6.1** - Graph neural networks (GCN, SAGE, GAT)
-- **Gensim 4.3.0** - Word2Vec, Doc2Vec embeddings
-- **scikit-learn 1.1.1** - Traditional ML algorithms and preprocessing
-- **XGBoost 0.90** - Gradient boosting for classification
-
-### Data Processing & Analysis
-- **Pandas 1.3.5** - Data manipulation and analysis
-- **NumPy 1.23.1** - Numerical computing
-- **SciPy 1.9.3** - Scientific computing
-- **NetworkX 3.0** - Graph analysis and algorithms
-- **Matplotlib** - Data visualization and plotting
-
-### Privacy & Security
-- **Cryptography (Fernet)** - Symmetric encryption for model privacy
-- **Differential Privacy** - Mathematical privacy guarantees
-- **Federated Learning** - Distributed training without data sharing
-- **Dual-Server Architecture** - Secure multi-party computation
-
-### Advanced ML Techniques
-- **Graph Neural Networks** - SAGEConv, GATConv for graph-structured data
-- **Word Embeddings** - Cryptographic Word2Vec with privacy preservation
-- **Graph2Vec** - Graph representation learning
-- **Weisfeiler-Lehman Hashing** - Graph isomorphism testing
-- **Procrustes Analysis** - Embedding alignment and harmonization
-
-### Data Engineering & Infrastructure
-- **Docker** - Containerization and deployment
-- **Jupyter Lab** - Interactive development environment
-- **Elasticsearch** - Search and analytics engine
-- **JSON/JSONL** - Data serialization and storage
-- **Regular Expressions** - Pattern matching and data extraction
-
-### Performance & Optimization
-- **Joblib** - Parallel processing and caching
-- **Multiprocessing** - CPU parallelization
-- **Concurrent.futures** - Asynchronous execution
-- **xxHash** - Fast hashing algorithms
-- **tqdm** - Progress tracking and monitoring
-
-### Development & MLOps
-- **Git** - Version control
-- **Screen** - Session management for long-running processes
-- **Modular Design** - Plug-and-play architecture
-- **Pre-trained Models** - Model checkpointing and reproducibility 
-
 ## What Makes This Project Stand Out
-- Robust, end-to-end system: from raw data parsing to evaluation and reporting
-- Privacy-by-design: integrates privacy-preserving techniques without sacrificing utility
-- Modular and extensible: plug-and-play components for feature extraction and models
-- Reproducible evaluations: deterministic pipelines with pre-trained weights
-- Real-world datasets: evaluated across multiple DARPA datasets and scenarios
+- **Robust, end-to-end system**: from raw data parsing to evaluation and reporting
+- **Privacy-by-design**: integrates privacy-preserving techniques without sacrificing utility
+- **Modular and extensible**: plug-and-play components for feature extraction and models
+- **Reproducible evaluations**: deterministic pipelines with pre-trained weights
+- **Real-world datasets**: evaluated across multiple DARPA datasets and scenarios
+
+## Key Technologies
+- **Graph Neural Networks** (PyTorch Geometric) - SAGE, GAT, GCN architectures
+- **Privacy-Preserving ML** - Federated Learning, Differential Privacy, Cryptographic Word2Vec
+- **Advanced Graph Algorithms** - Weisfeiler-Lehman Hashing, Graph2Vec, Procrustes Analysis
+- **Production Infrastructure** - Docker, Elasticsearch, Parallel Processing
+- **Research-Grade ML** - PyTorch, XGBoost, scikit-learn with CUDA acceleration
 
 ## Overview
 
@@ -179,5 +137,56 @@ requirements.txt
 ## Notes
 - Datasets are large and hosted externally; see links above for access
 - Some notebooks may require paths to be updated to your local dataset location
+
+---
+
+## Detailed Tech Stack
+
+### Core ML/AI Frameworks
+- **PyTorch 2.5.0** - Deep learning framework with CUDA support
+- **PyTorch Geometric 2.6.1** - Graph neural networks (GCN, SAGE, GAT)
+- **Gensim 4.3.0** - Word2Vec, Doc2Vec embeddings
+- **scikit-learn 1.1.1** - Traditional ML algorithms and preprocessing
+- **XGBoost 0.90** - Gradient boosting for classification
+
+### Data Processing & Analysis
+- **Pandas 1.3.5** - Data manipulation and analysis
+- **NumPy 1.23.1** - Numerical computing
+- **SciPy 1.9.3** - Scientific computing
+- **NetworkX 3.0** - Graph analysis and algorithms
+- **Matplotlib** - Data visualization and plotting
+
+### Privacy & Security
+- **Cryptography (Fernet)** - Symmetric encryption for model privacy
+- **Differential Privacy** - Mathematical privacy guarantees
+- **Federated Learning** - Distributed training without data sharing
+- **Dual-Server Architecture** - Secure multi-party computation
+
+### Advanced ML Techniques
+- **Graph Neural Networks** - SAGEConv, GATConv for graph-structured data
+- **Word Embeddings** - Cryptographic Word2Vec with privacy preservation
+- **Graph2Vec** - Graph representation learning
+- **Weisfeiler-Lehman Hashing** - Graph isomorphism testing
+- **Procrustes Analysis** - Embedding alignment and harmonization
+
+### Data Engineering & Infrastructure
+- **Docker** - Containerization and deployment
+- **Jupyter Lab** - Interactive development environment
+- **Elasticsearch** - Search and analytics engine
+- **JSON/JSONL** - Data serialization and storage
+- **Regular Expressions** - Pattern matching and data extraction
+
+### Performance & Optimization
+- **Joblib** - Parallel processing and caching
+- **Multiprocessing** - CPU parallelization
+- **Concurrent.futures** - Asynchronous execution
+- **xxHash** - Fast hashing algorithms
+- **tqdm** - Progress tracking and monitoring
+
+### Development & MLOps
+- **Git** - Version control
+- **Screen** - Session management for long-running processes
+- **Modular Design** - Plug-and-play architecture
+- **Pre-trained Models** - Model checkpointing and reproducibility
 
 

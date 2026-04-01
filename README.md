@@ -31,16 +31,6 @@ This system implements state-of-the-art approaches to intrusion detection that b
 - 🚀 **Production Ready**: Docker containerization and scalable infrastructure
 - 📊 **Comprehensive Evaluation**: Standardized metrics and experiment tracking
 
-## 🏗️ Architecture
-
-<div align="center">
-
-![System Architecture](architecture.png)
-
-*High-level architecture of the privacy-preserving intrusion detection system*
-
-</div>
-
 ### 🔄 System Flow
 
 ```

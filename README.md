@@ -1,4 +1,4 @@
-# 🛡️ Privacy-Preserving Intrusion Detection
+# 🛡️ Decentralized Intrusion Detection
 
 <div align="center">
 
